@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class WeatherMan {
 
-    private Random random;
+    private final Random random;
 
     public WeatherMan() {
         this.random = new Random();
